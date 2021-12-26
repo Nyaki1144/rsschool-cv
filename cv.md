@@ -39,3 +39,26 @@
  return sum;
 };
 ```
+
+### Experience
+
+I have no programming work experience.
+
+---
+
+### Education
+
+**University**:
+
+- National Polytechnic University of Armenia.
+
+**Courses**:
+
+- Основы верстки с нуля. HTML, CSS, Flexbox
+- Интенсивное погружение в JavaScript
+
+---
+
+### English lvl
+
+**A2** (but i learn and improve my english)
