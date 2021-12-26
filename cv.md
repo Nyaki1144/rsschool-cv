@@ -2,28 +2,28 @@
 
 ---
 
-###My contacts
+### My contacts
 
-**Phone**: _+374-98671144_
-**E-mail**: _narek1144@gmail.com_
-**Facbook** : [Narek Gabrielyan](https://www.facebook.com/narek.sirunyan.3)
-**GitHub**: [Nyaki1144](https://github.com/Nyaki1144)
-**Discord**: _@Nyaki1144_
+- **Phone**: _+374-98671144_
+- **E-mail**: _narek1144@gmail.com_
+- **Facbook** : [Narek Gabrielyan](https://www.facebook.com/narek.sirunyan.3)
+- **GitHub**: [Nyaki1144](https://github.com/Nyaki1144)
+- **Discord**: _@Nyaki1144_
 
 ---
 
-###About me
+### About me
 
 > I was born on the 10th of July 1990 in Erevan. I have Master degree in mechanical engineering. I have worked that industry more 10 years, but I decided change my profession, and I started to lern JS.
 
 ---
 
-###My skills
+### My skills
 
 - HTML
 - CSS
 
-###Code examples from Codewars
+### Code examples from Codewars
 
 ```
   var solution = function (firstArray, secondArray) {
