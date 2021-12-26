@@ -8,6 +8,7 @@
 **E-mail**: _narek1144@gmail.com_
 **Facbook** : [Narek Gabrielyan](https://www.facebook.com/narek.sirunyan.3)
 **GitHub**: [Nyaki1144](https://github.com/Nyaki1144)
+**Discord**: _@Nyaki1144_
 
 ---
 
