@@ -8,18 +8,21 @@
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.header {
+.container {
   max-width: 1440px;
-  height: 550px;
   margin: 0 auto;
   background-color: #112234;
+}
+
+.header {
+  height: 600px;
   display: flex;
 }
 
 /* header left */
 
 .header-info {
-  width: 66%;
+  width: 64%;
   background-color: #f6b653;
   height: 100%;
   border-radius: 0 0 250px 0;
@@ -32,7 +35,7 @@
 
 .header-title {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 40px;
   font-weight: 600;
   padding-top: 30px;
 }
@@ -46,8 +49,8 @@
 }
 
 .header-introduction {
-  font-size: 14px;
-  padding-top: 60px;
+  font-size: 20px;
+  padding-top: 10px;
   font-weight: 600;
 }
 
@@ -67,7 +70,7 @@
   font-weight: 500;
   display: flex;
   align-items: center;
-  margin-left: 12px;
+  margin-left: 30px;
 }
 
 .header-item img {
@@ -103,4 +106,54 @@
   border: 15px solid rgba(246, 182, 83, 0.9);
   border-radius: 50%;
   margin: 0 auto;
+}
+
+/* header right */
+
+/* ******************************** */
+
+/* main */
+
+main {
+  display: flex;
+}
+
+/* main left */
+
+.main-left {
+  width: 10%;
+  background-color: #112234;
+}
+
+/* main right */
+
+.main-right {
+  width: 90%;
+  background-color: #f6b653;
+  border-radius: 250px 0 0 0;
+}
+
+.main-right--case {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.main-name {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.main-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.main-text {
+  font-size: 20px;
+  margin: 35px 0 20px 75px;
+  border-bottom: 5px inset #7a5613ce;
+  border-radius: 0px 0px 40px 0px;
 }
