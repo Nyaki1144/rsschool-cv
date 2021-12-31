@@ -8,6 +8,8 @@
     <title>Document</title>
   </head>
   <body>
+
+   <!-- HEADER START -->
     <header class="header container">
       <div class="header-info">
         <div class="header-case">
@@ -59,6 +61,9 @@
         <div class="header-img"></div>
       </div>
     </header>
+    <!-- HEADER ENDS -->
+
+    <!-- MAIN STARTS -->
     <main class="main container">
       <div class="main-left">
         <div class="main-left--case">div.main-yers</div>
@@ -100,13 +105,46 @@
         </div>
       </div>
     </main>
+    <!-- MAIN ENDS -->
+
+
+    <!-- CODE EXAMPLE STARTS -->
     <div class="code container">
         <div class="code-left">
 
         </div>
         <div class="code-right">
-
+          <div class="code-container">
+            <div class="code-title">Code examples from Codewars
+            </div>
+            <div class="code-exampl">
+                <p>var solution = function (firstArray, secondArray) {</p>
+                <p>    let newArr = [];</p>
+                <p>    let num = 0;</p>
+                <p>secondArray.forEach((el, i) => {</p>
+                <p>newArr.push(el - firstArray[i]);</p>
+                <p>});</p>
+                <p>newArr.forEach((el) => {</p>
+                <p>num += el * el;</p>
+                <p>});</p>
+                <p>let sum = num / firstArray.length;</p>
+                <p>return sum;</p>
+                <p> };</p>
+            </div>
+          </div>
         </div>
     </div>
+    <!-- CODE EXAMPLE ENDS -->
+
+
+    <!-- FOOTER STARTS -->
+
+    <footer class="footer container">
+      <div class="name">Narek Gabrielyan</div>
+      <a href="https://rs.school" class="logoRsschool">
+        <img src="./assets/photo/logo-rsschool.png" alt="rrschool" >
+      </a>
+    </footer>
+
   </body>
 </html>

@@ -101,8 +101,8 @@
   width: 300px;
   overflow: hidden;
   background: url('./assets/photo/photoCV.JPG') no-repeat -80px 0;
-  border-radius: 50%; /* Превращаем в круг */
-  background-size: auto 300px; /* Высота фотографии равна высоте элемента */
+  border-radius: 50%;
+  background-size: auto 300px;
   border: 15px solid rgba(246, 182, 83, 0.9);
   border-radius: 50%;
   margin: 0 auto;
@@ -156,4 +156,69 @@ main {
   margin: 35px 0 20px 75px;
   border-bottom: 5px inset #7a5613ce;
   border-radius: 0px 0px 40px 0px;
+}
+
+/* code */
+
+.code {
+  display: flex;
+  background-color: #f6b653;
+}
+
+.code-left {
+  width: 10%;
+  background-color: #112234;
+  border-radius: 0px 0px 130px 0px;
+}
+
+.code-right {
+  width: 90%;
+  background-color: #f6b653;
+}
+
+.code-container {
+  background-color: #7a5613ce;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+
+.code-title {
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.code-exampl {
+  font-size: 20px;
+  margin: 35px 0 20px 75px;
+  padding-bottom: 20px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #f6b653;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.name {
+  align-self: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 45px;
+}
+
+.logoRsschool {
+  align-self: center;
+  padding-right: 45px;
+}
+
+.logoRsschool img {
+  height: 75px;
 }
