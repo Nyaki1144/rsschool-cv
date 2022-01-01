@@ -8,8 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-
-   <!-- HEADER START -->
+    <!-- HEADER START -->
     <header class="header container">
       <div class="header-info">
         <div class="header-case">
@@ -58,93 +57,94 @@
         </div>
       </div>
       <div class="header-right">
-        <div class="header-img"></div>
+        <nav class="nav">
+          <ul>
+            <li><a class="nav-item" href="#eduaction">Eduaction</a></li>
+            <li><a class="nav-item" href="#cours">Cours</a></li>
+            <li><a class="nav-item" href="#mySkills">Eduaction</a></li>
+            <li><a class="nav-item" href="#englishLvl">Eduaction</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-img">
+          <img src="./assets/photo/photoCV.JPG" alt="photoCV" />
+        </div>
       </div>
     </header>
     <!-- HEADER ENDS -->
 
     <!-- MAIN STARTS -->
     <main class="main container">
-      <div class="main-left">
-        <div class="main-left--case">div.main-yers</div>
-      </div>
+      <div class="main-left"></div>
       <div class="main-right">
         <div class="main-right--case">
-
-          <div class="main-name">Gabrielyan Narek</div>
+          <h1 class="main-name">Gabrielyan Narek</h1>
           <div class="main-info">
-            <div class="main-title">Eduaction</div>
+            <h2 class="main-title" id="eduaction">Eduaction</h2>
             <div class="main-text">
               - National Polytechnic University of Armenia
             </div>
           </div>
           <div class="main-info">
-            <div class="main-title">Cours</div>
-              <div class="main-text">
-                - Основы верстки с нуля. HTML, CSS, Flexbox
-              </div>
-              <div class="main-text">- Интенсивное погружение в JavaScript</div>
+            <h2 class="main-title" id="cours">Cours</h2>
+            <div class="main-text">
+              - Основы верстки с нуля. HTML, CSS, Flexbox
+            </div>
+            <div class="main-text">- Интенсивное погружение в JavaScript</div>
           </div>
           <div class="main-info">
-            <div class="main-title">My skills</div>
-              <div class="main-text">
-                - HTML
-              </div>
+            <h2 class="main-title" id="mySkills">My skills</h2>
+            <div class="main-text">- HTML</div>
             <div class="main-text">- CSS</div>
           </div>
           <div class="main-info">
-            <div class="main-title">English lvl</div>
-              <div class="main-text">
-                - A2 (but i learn and improve my english)
-              </div>
+            <h2 class="main-title" id="englishLvl">English lvl</h2>
+            <div class="main-text">
+              - A2 (but i learn and improve my english)
+            </div>
           </div>
-
-        </div>
-      </div>
-
         </div>
       </div>
     </main>
     <!-- MAIN ENDS -->
 
-
     <!-- CODE EXAMPLE STARTS -->
     <div class="code container">
-        <div class="code-left">
-
-        </div>
-        <div class="code-right">
-          <div class="code-container">
-            <div class="code-title">Code examples from Codewars
-            </div>
-            <div class="code-exampl">
-                <p>var solution = function (firstArray, secondArray) {</p>
-                <p>    let newArr = [];</p>
-                <p>    let num = 0;</p>
-                <p>secondArray.forEach((el, i) => {</p>
-                <p>newArr.push(el - firstArray[i]);</p>
-                <p>});</p>
-                <p>newArr.forEach((el) => {</p>
-                <p>num += el * el;</p>
-                <p>});</p>
-                <p>let sum = num / firstArray.length;</p>
-                <p>return sum;</p>
-                <p> };</p>
-            </div>
+      <div class="code-left"></div>
+      <div class="code-right">
+        <div class="code-container">
+          <div class="code-title">Code examples from Codewars</div>
+          <div class="code-exampl">
+            <p>var solution = function (firstArray, secondArray) {</p>
+            <p>let newArr = [];</p>
+            <p>let num = 0;</p>
+            <p>secondArray.forEach((el, i) => {</p>
+            <p>newArr.push(el - firstArray[i]);</p>
+            <p>});</p>
+            <p>newArr.forEach((el) => {</p>
+            <p>num += el * el;</p>
+            <p>});</p>
+            <p>let sum = num / firstArray.length;</p>
+            <p>return sum;</p>
+            <p>};</p>
           </div>
         </div>
+      </div>
     </div>
     <!-- CODE EXAMPLE ENDS -->
-
 
     <!-- FOOTER STARTS -->
 
     <footer class="footer container">
-      <div class="name">Narek Gabrielyan</div>
-      <a href="https://rs.school" class="logoRsschool">
-        <img src="./assets/photo/logo-rsschool.png" alt="rrschool" >
+      <a href="https://github.com/Nyaki1144" class="name">
+        <img src="./assets/icon/github.svg" alt="github.svg" />
+        <div class="">Github</div>
+      </a>
+      <div class="name">2021</div>
+
+      <a href="https://rs.school/js/" class="logoRsschool">
+        <img src="./assets/photo/logo-rsschool.png" alt="rrschool" />
       </a>
     </footer>
-
   </body>
 </html>

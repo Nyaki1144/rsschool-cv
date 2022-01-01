@@ -17,6 +17,25 @@
 .header {
   height: 600px;
   display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  /* position: absolute; */
+  right: 410px;
+  margin-top: 15px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #f6b653;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline;
 }
 
 /* header left */
@@ -93,19 +112,26 @@
   width: 34%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .header-img {
   height: 300px;
   width: 300px;
   overflow: hidden;
-  background: url('./assets/photo/photoCV.JPG') no-repeat -80px 0;
   border-radius: 50%;
   background-size: auto 300px;
-  border: 15px solid rgba(246, 182, 83, 0.9);
-  border-radius: 50%;
-  margin: 0 auto;
+  border: 18px solid rgba(246, 182, 83, 1);
+  position: relative;
+  margin-top: 100px;
+}
+
+.header-img img {
+  position: relative;
+  width: 400px;
+  top: -30px;
+  left: -85px;
 }
 
 /* header right */
@@ -140,7 +166,7 @@ main {
 
 .main-name {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   margin-top: 60px;
 }
@@ -208,10 +234,12 @@ main {
 }
 
 .name {
+  display: flex;
   align-self: center;
   font-size: 20px;
   font-weight: 500;
   padding-left: 45px;
+  text-decoration: none;
 }
 
 .logoRsschool {
@@ -221,4 +249,8 @@ main {
 
 .logoRsschool img {
   height: 75px;
+}
+
+a div {
+  line-height: 100px;
 }
